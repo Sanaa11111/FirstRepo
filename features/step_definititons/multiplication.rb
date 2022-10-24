@@ -11,6 +11,6 @@ When(/^I multiplication a and b$/) do
 end
 
 Then(/^I display the Result$/) do
-  puts " Sanaa test modif :Multiplication of #{@a} and #{@b} is #{@mul}"
+  puts " Sanaa test modif sasaq :Multiplication of #{@a} and #{@b} is #{@mul}"
 end
 
