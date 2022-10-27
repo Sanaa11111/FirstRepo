@@ -1,9 +1,9 @@
 Given(/^I have variable a$/) do
-  @a = 50
+  @a = 10
 end
 
 And(/^I have variable b$/) do
-  @b = 70
+  @b = 80
 end
 
 When(/^I multiplication a and b$/) do
@@ -11,6 +11,6 @@ When(/^I multiplication a and b$/) do
 end
 
 Then(/^I display the Result$/) do
-  puts " Sanaa test modif sasaq :Multiplication of #{@a} and #{@b} is #{@mul}"
+  puts " Sanaa test  :Multiplication of #{@a} and #{@b} is #{@mul}"
 end
 
